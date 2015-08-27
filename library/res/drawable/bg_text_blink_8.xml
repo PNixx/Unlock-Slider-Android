@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+	<gradient android:startColor="@color/Text.Blink.Start"
+						android:centerColor="@color/Text.Blink.Center"
+						android:endColor="@color/Text.Blink.End"
+						android:centerX="0.3"
+						android:angle="@integer/Blink.Angle"
+			/>
+	<size android:height="@dimen/submit.text.height"
+				android:width="@dimen/submit.text.width"
+			/>
+</shape>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="wrap_content">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+	<style name="Submit">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:background">@drawable/button</item>
+		<item name="android:paddingLeft">@dimen/step.half.2</item>
+		<item name="android:paddingRight">@dimen/step.half.2</item>
+		<item name="android:paddingTop">@dimen/half.step</item>
+		<item name="android:paddingBottom">@dimen/half.step</item>
+		<item name="android:orientation">horizontal</item>
+	</style>
+	<style name="SubmitText">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:singleLine">true</item>
+		<item name="android:textSize">30sp</item>
+		<item name="android:textColor">@android:color/white</item>
+		<item name="android:paddingBottom">1dp</item>
+	</style>
+</resources>

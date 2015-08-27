@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+							android:orientation="vertical"
+							android:layout_width="fill_parent"
+							android:layout_height="fill_parent"
+							android:background="#ff28343b"
+							android:padding="@dimen/step"
+		>
+	<include layout="@layout/slide_to_right" />
+
+	<Button style="@style/wrap_content"
+					android:background="@drawable/button"
+					android:layout_marginTop="@dimen/step"
+					android:padding="@dimen/half.step"
+					android:text="Disable"
+					android:id="@+id/disable"
+			/>
+	<Button style="@style/wrap_content"
+					android:background="@drawable/button"
+					android:layout_marginTop="@dimen/step"
+					android:padding="@dimen/half.step"
+					android:text="Enable"
+					android:id="@+id/enable"
+			/>
+</LinearLayout>
+

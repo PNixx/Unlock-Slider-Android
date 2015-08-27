@@ -1,0 +1,9 @@
+*.iml
+.idea/
+/out/
+bin/
+gen/
+local.properties
+*.class
+.git/
+*.apk

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<dimen name="step">10dp</dimen>
+	<dimen name="half.step">5dp</dimen>
+	<dimen name="step.2">20dp</dimen>
+	<dimen name="step.half.2">15dp</dimen>
+	<dimen name="submit.text.width">200dp</dimen>
+	<dimen name="submit.text.height">40dp</dimen>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+								android:id="@id/submit_layout"
+								android:orientation="horizontal"
+								android:layout_width="fill_parent"
+								android:layout_height="wrap_content"
+								android:background="@drawable/bg_submit"
+		>
+
+	<LinearLayout
+			android:layout_width="@dimen/submit.text.width"
+			android:layout_height="@dimen/submit.text.height"
+			android:gravity="center"
+			android:layout_centerVertical="true"
+			android:layout_alignParentRight="true"
+			android:orientation="vertical"
+			android:layout_marginRight="@dimen/step.2"
+			>
+
+		<TextView android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+				android:text="Unlock me" />
+
+	</LinearLayout>
+
+	<ImageView
+			android:layout_width="@dimen/submit.text.width"
+			android:layout_height="@dimen/submit.text.height"
+			android:layout_marginRight="@dimen/step.2"
+			android:layout_centerVertical="true"
+			android:layout_alignParentRight="true"
+			android:src="@drawable/amin_text_blink"
+			android:id="@id/animation"
+			/>
+
+	<LinearLayout
+			style="@style/Submit"
+			android:id="@id/submit"
+			>
+
+		<TextView
+				style="@style/SubmitText"
+				android:text="OK"
+				android:id="@id/text"
+				/>
+	</LinearLayout>
+</RelativeLayout>
+

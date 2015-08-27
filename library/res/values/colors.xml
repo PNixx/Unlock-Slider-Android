@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="background">#0d1418</color>
+	<color name="Submit">#C40024</color>
+	<color name="Submit.Disabled">#151e24</color>
+
+	<!--Blink-->
+	<color name="Text.Blink.Start">#dd0d1418</color>
+	<color name="Text.Blink.Center">#000d1418</color>
+	<color name="Text.Blink.End">#dd0d1418</color>
+	<integer name="Blink.Angle">225</integer>
+</resources>
